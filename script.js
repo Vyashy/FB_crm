@@ -365,6 +365,9 @@ document.querySelector('.select-country__list').onmousedown = function(e) {
 function visabilityCoutry(e){
     stopVideos();
     var countryBlock = e.target.className;
+    if (typeof countryBlock !== 'string') {
+        return;
+    }
     var split = countryBlock.split(" ");
     var selectCountry = $(".select-country");
     if(split[0] === "select-country" || split[0] === "select-country__triangle") {
