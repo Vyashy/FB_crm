@@ -92,7 +92,7 @@ else {
 	</header>
 
 
-<div class="order" style="display:flex; flex-direction: column;">
+
     <img class="img_fonts" src="imgs/fon02.png" style="
     position: absolute;
 
@@ -230,166 +230,181 @@ else {
             <div class="feedback">
                 <div class="head__feed"><img src="imgs/icon_video.svg" style="width: 30px;height: 30px;margin-right: 10px;">
                     <p>Видеоотзыв</p></div>
+
+<!--                              <span style="-->
+<!--	background-color: transparent;-->
+<!--	width: 47px !important;-->
+<!--	border: none;-->
+<!--	position: absolute;-->
+<!--	top: 45%;-->
+<!--	left: 41%;-->
+<!--	text-shadow: 0 0 black;-->
+<!--	class="ytp-large-play-button ytp-button" id="btn__youtube" aria-label="Play"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" class="svg-inline--fa fa-play fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" style="-->
+<!--    fill: rgba(255, 255, 255, 0.75);-->
+<!--"></path></svg></span>-->
                 <div class="main__feed">
 
 
 
 
-					<input  type="radio" name="myModal" id="noceck">
-                   <label  for="noceck">
-                       <span class="btn_modal">
-                           <div class="img_feed">
-                              <span style="
-	background-color: transparent;
-	width: 47px !important;
-	border: none;
-	position: absolute;
-	top: 45%;
-	left: 41%;
-	text-shadow: 0 0 black;
-	class="ytp-large-play-button ytp-button" id="btn__youtube" aria-label="Play"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" class="svg-inline--fa fa-play fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" style="
-    fill: rgba(255, 255, 255, 0.75);
-"></path></svg></span>
-                                <img src="imgs/feedbak1.png" alt="">
+                    <input  type="radio" name="myModal" id="noceck">
+                    <label  for="noceck"><span class="btn_modal"><div class="img_feed"><img src="imgs/feedbak1.png" alt=""></div></span></label>
 
 
-                           </div>
-                       </span>
-                   </label>
-
-
-                 <input  type="radio" name="myModal" id="clik">
-                   <label  for="clik"><span class="knopka">
-                           <div class="img_feed">
-                               <span style="
-	background-color: transparent;
-	width: 47px !important;
-	border: none;
-	position: absolute;
-	top: 45%;
-	left: 41%;
-	text-shadow: 0 0 black;
-	class="ytp-large-play-button ytp-button" id="btn__youtube" aria-label="Play"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" class="svg-inline--fa fa-play fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" style="
-    fill: rgba(255, 255, 255, 0.75);
-"></path></svg></span>
-
-                       <img src="imgs/feedbak2.png" alt=""></div></span></label>
+                    <input  type="radio" name="myModal" id="clik">
+                    <label  for="clik"><span class="knopka"><div class="img_feed"><img src="imgs/feedbak2.png" alt=""></div></span></label>
 
 
                     <input  type="radio" name="myModal" id="klick">
-                   <label  for="klick"><span class="pink"><div class="img_feed"><span style="
-	background-color: transparent;
-	width: 47px !important;
-	border: none;
-	position: absolute;
-	top: 45%;
-	left: 41%;
-	text-shadow: 0 0 black;
-	class="ytp-large-play-button ytp-button" id="btn__youtube" aria-label="Play"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" class="svg-inline--fa fa-play fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" style="
-    fill: rgba(255, 255, 255, 0.75);
-"></path></svg></span>
-                       <img src="imgs/feedbak3.png" alt="">
-                     
+                    <label  for="klick"><span class="pink"><div class="img_feed"><img src="imgs/feedbak3.png" alt=""></div></span></label>
 
 
-    				<div class="test">
-				    <div class="bgModal"></div><!--ФОН модального окна-->
-				    <div class="modalBlock"><!--Блок модального окна-->
-				        <div class="offBlock">
-				            <input  type="radio" name="myModal" id="noceck2">
-				        </div>
-				        <div class="blockCont">
-		<div class="wrapper" id="popaps"style="display: flex;max-width: 1024px;margin: 0 auto;margin-bottom: 165px;margin-left: 22%;margin-top: 8%;">
-			<div class="popap">
-				<iframe width="650" height="305" src="https://www.youtube.com/embed/bd-KpqIyLUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="test">
+                        <div class="bgModal"></div><!--ФОН модального окна-->
+                        <div class="modalBlock"><!--Блок модального окна-->
+                            <div class="offBlock">
+                                <input  type="radio" name="myModal" id="noceck2">
+                            </div>
+                            <div class="blockCont">
+                                <div class="wrapper" id="popaps"style="display: flex;max-width: 1024px;margin: 0 auto;margin-bottom: 165px;margin-left: 22%;margin-top: 8%;">
+                                    <div class="popap">
+                                        <iframe width="650" height="305" src="https://www.youtube.com/embed/bd-KpqIyLUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-				<div class="name_feed"><img src="imgs/icon_feed.png"><p>Александр Миколенко</p>
-				<div class="likes"><span></span><p>1189</p><p>Комментарии 15</p></div></div>
-				<div class="line"></div>
-				<div class="vievs1"><p>Просмотры: 1255 - </p><span> месяц назад</span><img src="imgs/users.svg" style="height: 15px;padding-left: 6px;"></div>
-			</div>
-			<div class="next">
-				<p>Далее<div class="close"><label for="noceck2" style="cursor: pointer; padding-left: 243px;"><svg aria-hidden="true" focusable="false" id="xo" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11 xo" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" style="position: absolute;
+                                        <div class="name_feed"><img src="imgs/icon_feed.png"><p>Александр Миколенко</p>
+                                            <div class="likes"><span></span><p>1189</p><p>Комментарии 15</p></div></div>
+                                        <div class="line"></div>
+                                        <div class="vievs1"><p>Просмотры: 1255 - </p><span> месяц назад</span><img src="imgs/users.svg" style="height: 15px;padding-left: 6px;"></div>
+                                    </div>
+                                    <div class="next">
+                                        <p>Далее<div class="close"><label for="noceck2" style="cursor: pointer; padding-left: 243px;"><svg aria-hidden="true" focusable="false" id="xo" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11 xo" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" style="position: absolute;
     height: 23px;
     top: 6%;
     color: #818182;
     left: 128%;"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class="ix"></path></svg></label></div></p>
 
 
-			<div class="pacuk">
-				<div class="close"><input  type="radio" name="myModal" id="clik">
-                   <label  for="clik"><span class="knopka"><div class="petuhok"><img src="imgs/video_feed2.png"></div></span></label></div>
-				<div class="close"><input  type="radio" name="myModal" id="clik">
-                   <label  for="clik"><span class="knopka"><div class="papuga"><p>Отзыв LP-CRM от Тараса Левчика. №1 по Трафику</p></span></label></div>
-				<p style="color: #4c545e;padding-top: 21px;font-size: 13px;">Просмотры : 2546</p>
-				</div>
-			</div>
+                                        <div class="pacuk">
+                                            <div class="close"><input  type="radio" name="myModal" id="clik">
+                                                <label  for="clik"><span class="knopka"><div class="petuhok"><img src="imgs/video_feed2.png"></div></span></label></div>
+                                            <div class="close"><input  type="radio" name="myModal" id="clik">
+                                                <label  for="clik"><span class="knopka"><div class="papuga"><p>Отзыв LP-CRM от Тараса Левчика. №1 по Трафику</p></span></label></div>
+                                            <p style="color: #4c545e;padding-top: 12px;font-size: 13px;">Просмотры : 2546</p>
+                                        </div>
+                                    </div>
 
 
-			<div class="pacuk">
-				<div class="close"><input  type="radio" name="myModal" id="klick">
-                   <label  for="klick"><span class="pink"><div class="petuhok"><img src="imgs/video_feed3.png"></div></span></label></div>
-				<div class="close"><input  type="radio" name="myModal" id="klick">
-                   <label  for="klick"><span class="pink"><div class="papuga"><p>Отзыв о LP-CRM от Сергея Данилюка. 3 года с нами!</p></span></label></div>
-				<p style="color: #4c545e;padding-top: 20px;font-size: 13px;">Просмотры : 2546</p>
-				</div>
-			</div>
+                                    <div class="pacuk">
+                                        <div class="close"><input  type="radio" name="myModal" id="klick">
+                                            <label  for="klick"><span class="pink"><div class="petuhok"><img src="imgs/video_feed3.png"></div></span></label></div>
+                                        <div class="close"><input  type="radio" name="myModal" id="klick">
+                                            <label  for="klick"><span class="pink"><div class="papuga"><p>Отзыв о LP-CRM от Сергея Данилюка. 3 года с нами!</p></span></label></div>
+                                        <p style="color: #4c545e;padding-top: 15px;font-size: 13px;">Просмотры : 2546</p>
+                                    </div>
+                                </div>
 
-			</div>
+                            </div>
 
-		</div>
-				        </div>
-				    </div>
-				</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="osnova">
+                <div class="fonModal"></div><!--ФОН модального окна-->
+                <div class="osnovaBlock"><!--Блок модального окна-->
+                    <div class="offBlock">
+                        <input  type="radio" name="myModal" id="clik2">
+                    </div>
+                    <div class="blockCont">
+                        <div class="wrapper" style="display: flex;max-width: 1024px;margin: 0 auto;margin-bottom: 165px;margin-left: 22%;margin-top: 8%;">
+                            <div class="popap">
+                                <iframe width="650" height="305" src="https://www.youtube.com/embed/l5vMacnir7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-					<div class="osnova">
-				    <div class="fonModal"></div><!--ФОН модального окна-->
-				    <div class="osnovaBlock"><!--Блок модального окна-->
-				        <div class="offBlock">
-				            <input  type="radio" name="myModal" id="clik2">
-				        </div>
-				        <div class="blockCont">
-		<div class="wrapper" style="display: flex;max-width: 1024px;margin: 0 auto;margin-bottom: 165px;margin-left: 22%;margin-top: 8%;">
-			<div class="popap">
-				<iframe width="650" height="305" src="https://www.youtube.com/embed/l5vMacnir7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-				<div class="name_feed"><img src="imgs/taras.png"><p>Тарас Левчик</p>
-				<div class="likes"><span></span><p>1189</p><p>Комментарии 15</p></div></div>
-				<div class="line"></div>
-				<div class="vievs1"><p>Просмотры: 1255 - </p><span> месяц назад</span><img src="imgs/users.svg" style="height: 15px;padding-left: 6px;"></div>
-			</div>
-			<div class="next">
-				<p>Далее<div class="close"><label for="clik2" style="cursor: pointer; padding-left: 243px;"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" style="position: absolute;
+                                <div class="name_feed"><img src="imgs/taras.png"><p>Тарас Левчик</p>
+                                    <div class="likes"><span></span><p>1189</p><p>Комментарии 15</p></div></div>
+                                <div class="line"></div>
+                                <div class="vievs1"><p>Просмотры: 1255 - </p><span> месяц назад</span><img src="imgs/users.svg" style="height: 15px;padding-left: 6px;"></div>
+                            </div>
+                            <div class="next">
+                                <p><div class="close"><label for="clik2" style="cursor: pointer; padding-left: 243px;"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" style="position: absolute;
     height: 23px;
     top: 6%;
     color: #818182;
     left: 128%;"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class="ix"></path></svg></label></div></p>
 
 
-			<div class="pacuk">
-				<div class="close"><label  for="noceck"><span class="btn_modal"><div class="petuhok"><img src="imgs/video_feed.png"></div></span></label></div>
-				<div class="close"><label  for="noceck"><span class="btn_modal"><div class="papuga"><p>Отзыв от гуру товарки Александра Миколенко. До 1000 лидов в день</p></span></label></div>
-				<p style="color: #4c545e;padding-top: 0px;font-size: 13px;">Просмотры : 2546</p>
-				</div>
-			</div>
+                                <div class="pacuk">
+                                    <div class="close"><label  for="noceck"><span class="btn_modal"><div class="petuhok"><img src="imgs/video_feed.png"></div></span></label></div>
+                                    <div class="close"><label  for="noceck"><span class="btn_modal"><div class="papuga"><p>Отзыв от гуру товарки Александра Миколенко. До 1000 лидов в день</p></span></label></div>
+                                    <p style="color: #4c545e;padding-top: 0px;font-size: 13px;">Просмотры : 2546</p>
+                                </div>
+                            </div>
 
 
-			<div class="pacuk">
-				<input  type="radio" name="myModal" id="klick">
-				<div class="close"><label  for="klick"><span class="pink"><div class="petuhok"><img src="imgs/video_feed3.png"></div></span></label></div>
-				<input  type="radio" name="myModal" id="klick">
-                   <div class="close"><label  for="klick"><span class="pink"><div class="papuga"><p>Отзыв о LP-CRM от Сергея Данилюка. 3 года с нами!</p></span></label></div>
-				<p style="color: #4c545e;padding-top: 20px;font-size: 13px;">Просмотры : 2546</p>
-				</div>
-			</div>
+                            <div class="pacuk">
+                                <input  type="radio" name="myModal" id="klick">
+                                <div class="close"><label  for="klick"><span class="pink"><div class="petuhok"><img src="imgs/video_feed3.png"></div></span></label></div>
+                                <input  type="radio" name="myModal" id="klick">
+                                <div class="close"><label  for="klick"><span class="pink"><div class="papuga"><p>Отзыв о LP-CRM от Сергея Данилюка. 3 года с нами!</p></span></label></div>
+                                <p style="color: #4c545e;padding-top: 16px;font-size: 13px;">Просмотры : 2546</p>
+                            </div>
+                        </div>
 
-			</div>
+                    </div>
 
-		</div>
+                </div>
 
-				        </div>
-				    </div>
-				</div>
+            </div>
+        </div>
+        </div>
+
+        <div class="example">
+            <div class="fon__Modal"></div><!--ФОН модального окна-->
+            <div class="main_modal"><!--Блок модального окна-->
+                <div class="offBlock">
+                    <input  type="radio" name="myModal" id="paint2">
+                </div>
+                <div class="blockCont">
+                    <div class="wrapper" style="display: flex;max-width: 1024px;margin: 0 auto;margin-bottom: 165px;margin-left: 22%;margin-top: 8%;">
+                        <div class="popap">
+                            <iframe width="650" height="305" src="https://www.youtube.com/embed/X4UJ36mcSdk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            Слава, [31.05.20 18:17]
+                            <div class="name_feed"><img src="imgs/sergey.png"><p>Сергей Данилюк</p>
+                                <div class="likes"><span></span><p>1189</p><p>Комментарии 15</p></div></div>
+                            <div class="line"></div>
+                            <div class="vievs1"><p>Просмотры: 1050 - </p><span> месяц назад</span><img src="imgs/users.svg" style="height: 15px;padding-left: 6px;"></div>
+                        </div>
+                        <div class="next">
+                            <p>Далее<div class="close"><label for="noceck2" style="cursor: pointer; padding-left: 243px;"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" style="position: absolute;
+    height: 23px;
+    top: 6%;
+    color: #818182;
+    left: 128%;"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class="ix"></path></svg></label></div></p>
+
+
+                            <div class="pacuk">
+                                <div class="close"><label  for="clik"><span class="noceck"><div class="petuhok"><img src="imgs/video_feed2.png"></div></span></label></div>
+                                <div class="close"><label  for="clik"><span class="noceck"><div class="papuga"><p>Отзыв LP-CRM от Тараса Левчика. №1 по Трафику</p></span></label></div>
+                                <p style="color: #4c545e;padding-top: 13px;font-size: 13px;">Просмотры : 2546</p>
+                            </div>
+                        </div>
+
+
+                        <div class="pacuk">
+                            <input  type="radio" name="myModal" id="noceck">
+                            <div class="close">   <label  for="noceck"><span class="btn_modal"><div class="petuhok"><img src="imgs/video_feed.png"></div></span></label></div>
+                            <input  type="radio" name="myModal" id="noceck">
+                            <div class="close">  <label  for="noceck"><span class="btn_modal"><div class="papuga"><p>Отзыв от гуру товарки Александра Миколенко. До 1000 лидов в день</p></span></label></div>
+                            <p style="color: #4c545e;padding-top: 0px;font-size: 13px;">Просмотры : 2236</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
 
 				<div class="example">
 				    <div class="fon__Modal"></div><!--ФОН модального окна-->
@@ -486,12 +501,12 @@ else {
     /* padding-top: 1px; */
     position: relative;
     margin-left: 116%;
-    margin-top: 0%;
+    margin-top: 0%;}
     /* margin-bottom: -11px;
 }
 .blockCont{
   padding:10px;
-}
+}*/
 </style>
 <style type="text/css">
 .knopka {
@@ -529,8 +544,8 @@ else {
     z-index: 999;
     margin: 0 auto;
 }
-.offBlock{
-}
+/*.offBlock{*/
+/*}*/
 #noceck2{
   display:none;
 }
@@ -540,7 +555,7 @@ else {
     /* padding-top: 1px; */
     position: relative;
     margin-left: 116%;
-    margin-top: 0%;
+    margin-top: 0%;}
     /* margin-bottom: -11px;
 }
 .blockCont{
@@ -588,8 +603,8 @@ else {
     z-index: 999;
     margin: 0 auto;
 }
-.off_block{
-}
+/*.off_block{*/
+/*}*/
 #clik2{
   display:none;
 }
@@ -599,7 +614,7 @@ else {
     /* padding-top: 1px; */
     position: relative;
     margin-left: 116%;
-    margin-top: 0%;
+    margin-top: 0%;}
     /* margin-bottom: -11px;
 }
 .blockCont{
