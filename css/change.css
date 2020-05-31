@@ -1,0 +1,166 @@
+
+
+.main-content-right form .wrapper-btn input{
+	margin-top: 10px;
+	background-color: #2D2D2D;
+	width: 100%;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+		font-family: Roboto-Medium;
+		font-size: 13,67px;
+		  overflow: hidden;
+		  position: relative;
+}
+
+.main-content-right form .wrapper-btn buttom:hover{
+	transform: scale(1.05);
+}
+
+.main-content-right form .wrapper-btn input:active{
+ transform: scale(1);
+ outline: none;
+ user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.wrapper-input{
+	margin-bottom: 6px;
+}
+
+.main-content-right form input{
+	margin-bottom: 0px !important;
+}
+
+
+
+.wp .http, .wp .domain {
+	display: inline-flex;
+	align-items: center;
+	top: 0px;
+	height: 100%;
+}
+
+
+.wp .succes,
+.wp .error{
+	/*position: absolute;*/
+}
+
+
+.succes,
+.error{
+/*	position: static;*/
+/*    display: inline-block;*/
+/*    right: 21px;*/
+/*    top: 17px;*/
+    color: #13EB1E;
+/*    top: 192px;*/
+/*    z-index: 40;*/
+/*    font-weight: bold;*/
+/*    !* font-family: OpenSansBold; *!*/
+/*    display: none;*/
+/*    !* font-size: 13px; *!*/
+/*    background-color: #ffffffcf;*/
+/*    padding: 5px;*/
+/*    text-align: center;*/
+/*}*/ }
+
+.succes{
+	color: #28b32c;
+}
+
+.error {
+  color: #f12b2b;
+}
+
+
+/* .slide img{
+	transition:all 3s ease;
+} */
+
+.slide{
+	z-index: -2;
+}
+
+.slide.active{
+	z-index: -1 !important;
+}
+
+.animate_slide_img{
+	right: -120vw !important;
+}
+
+/* .telp img{
+	display: none;
+} */
+
+
+
+.advantages-item svg{
+	flex-shrink: 0;
+}
+
+
+ @media screen and (max-width: 600px) {
+	.wp .succes,
+	.wp .error{
+		/*position: static;*/
+	}
+
+
+	.main-content-right form .wrapper-btn input {
+		width: 432px;
+	}
+
+
+	.dom{
+		padding: 0px 103px 0px 80px !important;
+		text-align: left !important;
+	}
+
+ 	.domain {
+		right: 6%;
+	}
+	
+	.main-content-left{
+		margin-top: 30px;
+		margin-left: 33px;
+	}
+
+	.main-content{
+	    min-height: 400px;
+		margin-top: 520px;
+	}
+	.politikas{
+		margin-left: -11px;
+	}
+	 .img_fonts{
+		 height: 934px !important;
+		 display: block !important;
+	 }
+ }
+
+@media screen and (max-width: 400px) {
+	.main-content {
+		min-height: 400px;
+		margin-top: 410px;
+	}
+	.img_fonts{
+		height: 822px !important;
+	}
+}
+
+
+
+
+

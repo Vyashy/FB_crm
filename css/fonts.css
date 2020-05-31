@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Roboto-Bold; /* Имя шрифта */
+    src: url(../Fonts/Roboto-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Roboto-Medium; /* Имя шрифта */
+    src: url(../Fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Roboto-Regular; /* Имя шрифта */
+    src: url(../Fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+}
