@@ -63,6 +63,7 @@ else {
     <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/simple.css">
 	<link rel="stylesheet" href="css/change.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -108,11 +109,21 @@ else {
 			<div class="main-content-left">
 
 				<div class="slide telp active" style="display: flex;">
-				   <img style="z-index: -1; transition: all 3s ease-in-out 0s;" class="to-remove slide_item active_slide tel" src="imgs/6f25c9dc20d0157b2409bfd3c33bdaee.png">
+                    <picture>
+                        <source type="imgs/webp" srcset="imgs/6f25c9dc20d0157b2409bfd3c33bdaee.webp">
+                        <source type="imgs/png" srcset="imgs/6f25c9dc20d0157b2409bfd3c33bdaee.png">
+                        <img style="z-index: -1; transition: all 3s ease-in-out 0s;" class="to-remove slide_item active_slide tel" src="imgs/6f25c9dc20d0157b2409bfd3c33bdaee.png">
+                    </picture>
+
 				</div>
 
 				<div class="slide" style="display: none;">
-					<img style="z-index: -1; transition: all 3s ease-in-out 0s;" class="to-anim slide_item next_slide animate_slide_img comp" src="imgs/iMac.png">
+                    <picture>
+                        <source type="imgs/webp" srcset="imgs/iMac.webp">
+                        <source type="imgs/png" srcset="imgs/iMac.png">
+                        <img style="z-index: -1; transition: all 3s ease-in-out 0s;" class="to-anim slide_item next_slide animate_slide_img comp" src="imgs/iMac.png">
+                    </picture>
+
 				</div>
 
 		</div>
@@ -236,7 +247,9 @@ else {
 
 
                     <input  type="radio" name="myModal" id="noceck">
-                    <label  for="noceck"><span class="btn_modal"><div class="img_feed"><span style="
+                    <label  for="noceck"><span class="btn_modal">
+                            <div class="img_feed">
+                                <span style="
 	background-color: transparent;
 	width: 47px !important;
 	border: none;
@@ -244,13 +257,24 @@ else {
 	top: 45%;
 	left: 41%;
 	text-shadow: 0 0 black;
-	class="ytp-large-play-button ytp-button" id="btn__youtube" aria-label="Play"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" class="svg-inline--fa fa-play fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" style="
+	class="ytp-large-play-button ytp-button" id="btn__youtube" aria-label="Play">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" class="svg-inline--fa fa-play fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" style="
     fill: rgba(255, 255, 255, 0.75);
-"></path></svg></span><img src="imgs/feedbak1.png" alt=""></div></span></label>
+"></path></svg></span>
+                        <picture>
+                            <source type="imgs/webp" srcset="imgs/feedbak1.webp">
+                            <source type="imgs/png" srcset="imgs/feedbak1.png">
+                            <img src="imgs/feedbak1.png" alt="">
+                        </picture>
+
+
+                </div></span></label>
 
 
                     <input  type="radio" name="myModal" id="clik">
-                    <label  for="clik"><span class="knopka"><div class="img_feed"><span style="
+                    <label  for="clik"><span class="knopka">
+                            <div class="img_feed">
+                                <span style="
 	background-color: transparent;
 	width: 47px !important;
 	border: none;
@@ -258,13 +282,24 @@ else {
 	top: 45%;
 	left: 41%;
 	text-shadow: 0 0 black;
-	class="ytp-large-play-button ytp-button" id="btn__youtube" aria-label="Play"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" class="svg-inline--fa fa-play fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" style="
+	class="ytp-large-play-button ytp-button" id="btn__youtube" aria-label="Play">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" class="svg-inline--fa fa-play fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" style="
     fill: rgba(255, 255, 255, 0.75);
-"></path></svg></span><img src="imgs/feedbak2.png" alt=""></div></span></label>
+"></path></svg></span>
+                        <picture>
+                            <source type="imgs/webp" srcset="imgs/feedbak2.webp">
+                            <source type="imgs/png" srcset="imgs/feedbak2.png">
+                            <img src="imgs/feedbak2.png" alt="">
+                        </picture>
+
+
+            </div></span></label>
 
 
                     <input  type="radio" name="myModal" id="klick">
-                    <label  for="klick"><span class="pink"><div class="img_feed"><span style="
+                    <label  for="klick"><span class="pink">
+                            <div class="img_feed">
+                                <span style="
 	background-color: transparent;
 	width: 47px !important;
 	border: none;
@@ -272,9 +307,17 @@ else {
 	top: 45%;
 	left: 41%;
 	text-shadow: 0 0 black;
-	class="ytp-large-play-button ytp-button" id="btn__youtube" aria-label="Play"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" class="svg-inline--fa fa-play fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" style="
+	class="ytp-large-play-button ytp-button" id="btn__youtube" aria-label="Play">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" class="svg-inline--fa fa-play fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" style="
     fill: rgba(255, 255, 255, 0.75);
-"></path></svg></span><img src="imgs/feedbak3.png" alt=""></div></span></label>
+"></path></svg></span>
+                        <picture>
+                            <source type="imgs/webp" srcset="imgs/feedbak3.webp">
+                            <source type="imgs/png" srcset="imgs/feedbak3.png">
+                            <img src="imgs/feedbak3.png" alt="">
+                        </picture>
+
+        </div></span></label>
 
 
                     <div class="test">
@@ -303,7 +346,16 @@ else {
 
                                         <div class="pacuk">
                                             <div class="close"><input  type="radio" name="myModal" id="clik">
-                                                <label  for="clik"><span class="knopka"><div class="petuhok"><img src="imgs/video_feed2.png"></div></span></label></div>
+                                                <label  for="clik"><span class="knopka"><div class="petuhok">
+                                                            <picture>
+                                                               <source type="imgs/webp" srcset="imgs/video_feed2.webp">
+                                                               <source type="imgs/png" srcset="imgs/video_feed2.png">
+                                                               <img src="imgs/video_feed2.png">
+                                                           </picture>
+
+
+
+                                                        </div></span></label></div>
                                             <div class="close"><input  type="radio" name="myModal" id="clik">
                                                 <label  for="clik"><span class="knopka"><div class="papuga"><p>Отзыв LP-CRM от Тараса Левчика. №1 по Трафику</p></span></label></div>
                                             <p style="color: #4c545e;padding-top: 12px;font-size: 13px;">Просмотры : 2546</p>
@@ -313,7 +365,16 @@ else {
 
                                     <div class="pacuk">
                                         <div class="close"><input  type="radio" name="myModal" id="klick">
-                                            <label  for="klick"><span class="pink"><div class="petuhok"><img src="imgs/video_feed3.png"></div></span></label></div>
+                                            <label  for="klick"><span class="pink"><div class="petuhok">
+                                                        <picture>
+                                                           <source type="imgs/webp" srcset="imgs/video_feed3.webp">
+                                                           <source type="imgs/png" srcset="imgs/video_feed3.png">
+                                                           <img src="imgs/video_feed3.png">
+                                                       </picture>
+
+
+
+                                                    </div></span></label></div>
                                         <div class="close"><input  type="radio" name="myModal" id="klick">
                                             <label  for="klick"><span class="pink"><div class="papuga"><p>Отзыв о LP-CRM от Сергея Данилюка. 3 года с нами!</p></span></label></div>
                                         <p style="color: #4c545e;padding-top: 15px;font-size: 13px;">Просмотры : 2546</p>
@@ -343,7 +404,7 @@ else {
                                 <div class="vievs1"><p>Просмотры: 1255 - </p><span> месяц назад</span><img src="imgs/users.svg" style="height: 15px;padding-left: 6px;"></div>
                             </div>
                             <div class="next">
-                                <p><div class="close"><label for="clik2" style="cursor: pointer; padding-left: 243px;"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" style="position: absolute;
+                                <p>Далее<div class="close"><label for="clik2" style="cursor: pointer; padding-left: 243px;"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" style="position: absolute;
     height: 23px;
     top: 6%;
     color: #818182;
@@ -351,7 +412,15 @@ else {
 
 
                                 <div class="pacuk">
-                                    <div class="close"><label  for="noceck"><span class="btn_modal"><div class="petuhok"><img src="imgs/video_feed.png"></div></span></label></div>
+                                    <div class="close"><label  for="noceck"><span class="btn_modal"><div class="petuhok">
+
+                                                    <picture>
+                                                       <source type="imgs/webp" srcset="imgs/video_feed.webp">
+                                                       <source type="imgs/png" srcset="imgs/video_feed.png">
+                                                       <img src="imgs/video_feed.png">
+                                                   </picture>
+
+                                                </div></span></label></div>
                                     <div class="close"><label  for="noceck"><span class="btn_modal"><div class="papuga"><p>Отзыв от гуру товарки Александра Миколенко. До 1000 лидов в день</p></span></label></div>
                                     <p style="color: #4c545e;padding-top: 0px;font-size: 13px;">Просмотры : 2546</p>
                                 </div>
@@ -360,7 +429,15 @@ else {
 
                             <div class="pacuk">
                                 <input  type="radio" name="myModal" id="klick">
-                                <div class="close"><label  for="klick"><span class="pink"><div class="petuhok"><img src="imgs/video_feed3.png"></div></span></label></div>
+                                <div class="close"><label  for="klick"><span class="pink"><div class="petuhok">
+                                                <picture>
+                                                       <source type="imgs/webp" srcset="imgs/video_feed3.webp">
+                                                       <source type="imgs/png" srcset="imgs/video_feed3.png">
+                                                       <img src="imgs/video_feed3.png">
+                                                   </picture>
+
+
+                                            </div></span></label></div>
                                 <input  type="radio" name="myModal" id="klick">
                                 <div class="close"><label  for="klick"><span class="pink"><div class="papuga"><p>Отзыв о LP-CRM от Сергея Данилюка. 3 года с нами!</p></span></label></div>
                                 <p style="color: #4c545e;padding-top: 16px;font-size: 13px;">Просмотры : 2546</p>
@@ -400,7 +477,15 @@ else {
 
 
                             <div class="pacuk">
-                                <div class="close"><label  for="clik"><span class="noceck"><div class="petuhok"><img src="imgs/video_feed2.png"></div></span></label></div>
+                                <div class="close"><label  for="clik"><span class="noceck"><div class="petuhok">
+                                                <picture>
+                                                   <source type="imgs/webp" srcset="imgs/video_feed2.webp">
+                                                   <source type="imgs/png" srcset="imgs/video_feed2.png">
+                                                   <img src="imgs/video_feed2.png">
+                                               </picture>
+
+
+                                            </div></span></label></div>
                                 <div class="close"><label  for="clik"><span class="noceck"><div class="papuga"><p>Отзыв LP-CRM от Тараса Левчика. №1 по Трафику</p></span></label></div>
                                 <p style="color: #4c545e;padding-top: 13px;font-size: 13px;">Просмотры : 2546</p>
                             </div>
@@ -409,7 +494,15 @@ else {
 
                         <div class="pacuk">
                             <input  type="radio" name="myModal" id="noceck">
-                            <div class="close">   <label  for="noceck"><span class="btn_modal"><div class="petuhok"><img src="imgs/video_feed.png"></div></span></label></div>
+                            <div class="close">   <label  for="noceck"><span class="btn_modal"><div class="petuhok">
+                                             <picture>
+                                                   <source type="imgs/webp" srcset="imgs/video_feed.webp">
+                                                   <source type="imgs/png" srcset="imgs/video_feed.png">
+                                                   <img src="imgs/video_feed.png">
+                                               </picture>
+
+
+                                        </div></span></label></div>
                             <input  type="radio" name="myModal" id="noceck">
                             <div class="close">  <label  for="noceck"><span class="btn_modal"><div class="papuga"><p>Отзыв от гуру товарки Александра Миколенко. До 1000 лидов в день</p></span></label></div>
                             <p style="color: #4c545e;padding-top: 0px;font-size: 13px;">Просмотры : 2236</p>
@@ -433,7 +526,15 @@ else {
 			<div class="popap">
 				<iframe width="650" height="305" src="https://www.youtube.com/embed/X4UJ36mcSdk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-				<div class="name_feed"><img src="imgs/sergey.png"><p>Сергей Данилюк</p>
+				<div class="name_feed">
+                    <picture>
+                        <source type="imgs/webp" srcset="imgs/sergey.webp">
+                        <source type="imgs/png" srcset="imgs/sergey.png">
+                        <img src="imgs/sergey.png">
+                    </picture>
+
+
+                    <p>Сергей Данилюк</p>
 				<div class="likes"><span></span><p>1189</p><p>Комментарии 15</p></div></div>
 				<div class="line"></div>
 				<div class="vievs1"><p>Просмотры: 1050 - </p><span> месяц назад</span><img src="imgs/users.svg" style="height: 15px;padding-left: 6px;"></div>
@@ -447,7 +548,15 @@ else {
 
 
 			<div class="pacuk">
-				<div class="close"><label  for="clik"><span class="noceck"><div class="petuhok"><img src="imgs/video_feed2.png"></div></span></label></div>
+				<div class="close"><label  for="clik"><span class="noceck"><div class="petuhok">
+
+                            <picture>
+                                <source type="imgs/webp" srcset="imgs/video_feed2.webp">
+                                <source type="imgs/png" srcset="imgs/video_feed2.png">
+                                <img src="imgs/video_feed2.png">
+                            </picture>
+
+                            </div></span></label></div>
 				<div class="close"><label  for="clik"><span class="noceck"><div class="papuga"><p>Отзыв LP-CRM от Тараса Левчика. №1 по Трафику</p></span></label></div>
 				<p style="color: #4c545e;padding-top: 21px;font-size: 13px;">Просмотры : 2546</p>
 				</div>
@@ -456,7 +565,14 @@ else {
 
 			<div class="pacuk">
 				<input  type="radio" name="myModal" id="noceck">
-                <div class="close">   <label  for="noceck"><span class="btn_modal"><div class="petuhok"><img src="imgs/video_feed.png"></div></span></label></div>
+                <div class="close">   <label  for="noceck"><span class="btn_modal"><div class="petuhok">
+
+                            <picture>
+                                <source type="imgs/webp" srcset="imgs/video_feed.webp">
+                                <source type="imgs/png" srcset="imgs/video_feed.png">
+                                <img src="imgs/video_feed.png">
+                            </picture>
+                            </div></span></label></div>
 				<input  type="radio" name="myModal" id="noceck">
                  <div class="close">  <label  for="noceck"><span class="btn_modal"><div class="papuga"><p>Отзыв от гуру товарки Александра Миколенко. До 1000 лидов в день</p></span></label></div>
 				<p style="color: #4c545e;padding-top: 0px;font-size: 13px;">Просмотры : 2236</p>
@@ -485,7 +601,7 @@ else {
     display:block;
     width:100%;
     height:100%;
-    animation: onModal  1.5s forwards;
+    /*animation: onModal  1.5s forwards;*/
     z-index: 100;
 }
 @keyframes onModal {
@@ -497,7 +613,7 @@ else {
   width:100%;
   height:100%;
   background:#000;
-  opacity:0.9;
+  opacity:0.7;
 
 }
 .main_modal{
@@ -539,7 +655,7 @@ else {
     display:block;
     width:100%;
     height:100%;
-    animation: onModal  1.5s forwards;
+    /*animation: onModal  1.5s forwards;*/
     z-index: 100;
 }
 @keyframes onModal {
@@ -598,7 +714,7 @@ else {
     display:block;
     width:100%;
     height:100%;
-    animation: onModal  1.5s forwards;
+    /*animation: onModal  1.5s forwards;*/
     z-index: 100;
 }
 @keyframes onModal {
@@ -653,7 +769,15 @@ else {
                 <p>Видеоотзывы</p>
             </div>
 			<div class="header_feed_mob">
-				<div class="mob_img"><img src="imgs/icon_feed.png" style="border-radius: 50%; width: 50px; height: 50px;"></div>
+				<div class="mob_img">
+
+                    <picture>
+                        <source type="imgs/webp" srcset="imgs/icon_feed.webp">
+                        <source type="imgs/png" srcset="imgs/icon_feed.png">
+                        <img src="imgs/icon_feed.png" style="border-radius: 50%; width: 50px; height: 50px;">
+                    </picture>
+
+                </div>
 				<div class="mob_name"><p style="font-size: 16px; font-family: Roboto-Bold;">Александр Миколенко</p>
 				<span style="font-family: Roboto-Medium; font-size: 14px; color: #9fa2a9;margin-top: -10px;">22 апр. 2020 г. в 15:47</span></div>
 				<div class="more" style="letter-spacing: -4px;margin-left: 75px;font-size: 45px;margin-top: -30px;">...</div>
@@ -684,7 +808,14 @@ else {
 
 		<div class="mob_feed">
 			<div class="header_feed_mob">
-				<div class="mob_img"><img src="imgs/taras.png" style="border-radius: 50%; width: 50px; height: 50px;"></div>
+				<div class="mob_img">
+                    <picture>
+                        <source type="imgs/webp" srcset="imgs/taras.webp">
+                        <source type="imgs/png" srcset="imgs/taras.png">
+                        <img src="imgs/taras.png" style="border-radius: 50%; width: 50px; height: 50px;">
+                    </picture>
+
+                </div>
 				<div class="mob_name"><p style="font-size: 16px; font-family: Roboto-Bold;">Тарас Левчук</p>
 				<span style="font-family: Roboto-Medium; font-size: 14px; color: #9fa2a9;margin-top: -10px;">28 апр. 2020 г. в 10:17</span></div>
 				<div class="more" style="letter-spacing: -4px;margin-left: 101px;font-size: 45px;margin-top: -30px;">...</div>
@@ -715,7 +846,15 @@ else {
 
 		<div class="mob_feed">
 			<div class="header_feed_mob">
-				<div class="mob_img"><img src="imgs/sergey.png" style="border-radius: 50%; width: 50px; height: 50px;"></div>
+				<div class="mob_img">
+                    <picture>
+                        <source type="imgs/webp" srcset="imgs/sergey.webp">
+                        <source type="imgs/png" srcset="imgs/sergey.png">
+                        <img src="imgs/sergey.png" style="border-radius: 50%; width: 50px; height: 50px;">
+                    </picture>
+
+
+                </div>
 				<div class="mob_name"><p style="font-size: 16px; font-family: Roboto-Bold;">Срегрей Данилюк</p>
 				<span style="font-family: Roboto-Medium; font-size: 14px; color: #9fa2a9;margin-top: -10px;">2 май. 2020 г. в 10:14</span></div>
 				<div class="more" style="letter-spacing: -4px;margin-left: 107px;font-size: 45px;margin-top: -30px;">...</div>

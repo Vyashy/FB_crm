@@ -1,5 +1,4 @@
 @import url("fonts.css");
-
 body {
 	background-color: #E8EBF0;
 	}
@@ -578,11 +577,11 @@ header {
 	transition: .4s;
 }
 .advantages-item svg:hover {
- stroke: #2C4F91;
+ stroke: #1876f2;
  cursor: pointer; 
 }
 .advantages-item:hover p{
- color: #2C4F91;
+ color: #1876f2;
 }
 .advantages-item p{
 		font-family: Roboto-Bold;
@@ -1288,6 +1287,7 @@ header .wrapper {
 		text-align: left;
 	}
 	.advantages-items {
+
 		max-width: 94%;
 		padding: 0;
 		width: 100%;
@@ -1295,7 +1295,8 @@ header .wrapper {
 	
 	}
 	.footer-icon:last-of-type {
-      margin-right: 24px;	
+      margin-right: 24px;
+
 	}
 }
 
@@ -1348,8 +1349,6 @@ title {
 	}
 
 }
-
-
  @keyframes lights {
 	0% {
 		color: #000;
@@ -1367,5 +1366,35 @@ title {
 	
 		stroke: #2C4F91 !important;
 	}
+
+}
+
+
+.header__function{
+	border-radius: 10px 10px 0px 0px;
+}
+.function{
+	border-radius: 10px;
+}
+
+.advantages-items {
+	border-radius: 10px;
+}
+.main-content-right {
+	border-radius: 10px;
+}
+.feedback{
+	border-radius: 10px;
+}
+.main__feed{
+	border-radius: 0 0 10px 10px;
+}
+.head__feed{
+	border-radius: 10px 10px 0 0;
+}
+.img_feed img{
+	border-radius: 5px;
+	box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.4);
+
 
 }
