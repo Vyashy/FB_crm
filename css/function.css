@@ -248,6 +248,132 @@
 }
 
 
+.header__price{
+    display: flex;
+    height: 80px;
+    background-color: #f5f6f7;
+    /*width: 100%;*/
+    align-items: center;
+    padding-left: 40px;
+    border-radius: 10px 10px 0 0 ;
 
+}
+.content__price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
 
+}
+.header__price img{
+    width: 20px;
+    height: 30px;
+}
 
+.header__price p{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 22px;
+    font-family: Roboto-Bold;
+}
+
+.price{
+    width: 100%;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.4);
+}
+
+.start{
+    border-radius: 5px;
+    height: 100%;
+    background: linear-gradient( 25deg, rgba(137, 239, 229, 1) 0%, rgba(34, 123, 243, 1) 90% );
+    margin-top: 110px;
+    margin-bottom: 110px;
+    width: 26%;
+}
+.start p{
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    padding-left: 15px;
+    color: #fff;
+    line-height: 1.5;
+}
+.start span{
+    padding-bottom: 45px;
+    padding-top: 50px;
+    font-family: Roboto-Bold;
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.business{
+    border-radius: 5px;
+    height: 100%;
+    background: linear-gradient( 35deg, rgba(209, 82, 183, 1) 0%, rgba(254, 113, 66, 1) 90% );
+    margin-top: 110px;
+    margin-bottom: 110px;
+    width: 26%;
+}
+.business p{
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    padding-left: 15px;
+    color: #fff;
+    line-height: 1.5;
+}
+.business span{
+    padding-bottom: 45px;
+    padding-top: 50px;
+    font-family: Roboto-Bold;
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.vip{
+    border-radius: 5px;
+    height: 100%;
+    background: linear-gradient( 215deg, rgba(231, 95, 133, 1) 0%, rgba(125, 67, 151, 1) 90% );
+    margin-top: 110px;
+    margin-bottom: 110px;
+    width: 26%;
+}
+.vip p{
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    padding-left: 15px;
+    color: #fff;
+    line-height: 1.5;
+}
+.vip span{
+    padding-bottom: 45px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto-Bold;
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}
+.price_order a{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.price_order span{
+    padding-bottom: 15px;
+}
+
+.price_order a:hover{
+    color: #ccc;
+}
