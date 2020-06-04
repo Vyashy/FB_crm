@@ -1398,3 +1398,12 @@ title {
 
 
 }
+.mob_feed_bg{
+	border-radius: 10px;
+}
+.mob_feed{
+	border-radius: 10px;
+}
+.video__feed_mob{
+	border-radius: 10px 10px 0 0;
+}
