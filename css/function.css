@@ -281,6 +281,7 @@
 .price{
     width: 100%;
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 }
 
 .start{
@@ -289,7 +290,7 @@
     background: linear-gradient( 25deg, rgba(137, 239, 229, 1) 0%, rgba(34, 123, 243, 1) 90% );
     margin-top: 110px;
     margin-bottom: 110px;
-    width: 26%;
+    width: 100%;
 }
 .start p{
     font-family: Roboto-Medium;
@@ -315,7 +316,8 @@
     background: linear-gradient( 35deg, rgba(209, 82, 183, 1) 0%, rgba(254, 113, 66, 1) 90% );
     margin-top: 110px;
     margin-bottom: 110px;
-    width: 26%;
+    width: 100%;
+    margin-right: 80px;
 }
 .business p{
     font-family: Roboto-Medium;
@@ -341,7 +343,7 @@
     background: linear-gradient( 215deg, rgba(231, 95, 133, 1) 0%, rgba(125, 67, 151, 1) 90% );
     margin-top: 110px;
     margin-bottom: 110px;
-    width: 26%;
+    width: 100%;
 }
 .vip p{
     font-family: Roboto-Medium;
@@ -369,11 +371,51 @@
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+    position: relative;
 }
 .price_order span{
     padding-bottom: 15px;
 }
 
 .price_order a:hover{
-    color: #ccc;
+    color: #fff;
+}
+
+.price_order a:before {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0;
+    background: #fff;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    left: 50%;
+    bottom: 54%;
+}
+.price_order a:after {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+    left: 50%;
+    bottom: 54%;
+}
+.price_order a:hover:before {
+    width: 34%;
+    left: 32%;
+}
+.price_order a:hover:after {
+    width: 15%;
+}
+
+.main__content__price{
+    width: 26%;
+}
+.second__content__price{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
 }

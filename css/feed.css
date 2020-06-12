@@ -45,7 +45,50 @@ left: 111%;}
 }
 @media screen and (max-width: 462px) {
 
-
+	.price{
+		margin: 0 auto;
+		width: 95%;
+		box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+	}
+	.main__content__price {
+		margin-left: 10px;
+		width: 30%;
+	}
+	.start {
+		border-radius: 5px;
+		height: 100%;
+		background: linear-gradient( 25deg, rgba(137, 239, 229, 1) 0%, rgba(34, 123, 243, 1) 90% );
+		/* margin-top: 110px; */
+		/* margin-bottom: 110px; */
+		width: 100%;
+	}
+	.start span {
+		padding-bottom: 11px;
+		padding-top: 12px;
+		font-family: Roboto-Bold;
+		font-size: 35px;
+		color: #fff;
+		display: flex;
+		justify-content: center;
+		line-height: 1.5;
+	}
+	.second__content__price {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		/* margin-right: -35%; */
+		margin-left: 28%;
+	}
+	.business {
+		width: 95%;
+		margin-bottom: 0px;
+		margin-right: 0px;
+	}
+	.vip {
+		width: 95%;
+		margin-top: 30px;
+	}
 
 }
 @media screen and (max-width: 320px) {
@@ -93,3 +136,72 @@ left: 111%;}
 	}
 }
 
+@media screen and (max-width: 900px) {
+	.main__content__price{
+		width:30%;
+	}
+	.business{
+		width: 45%;
+		margin-bottom: 0px;
+		margin-right: 0px;
+	}
+	.vip{
+		width: 45%;
+		margin-top: 30px;
+
+	}
+	.vip span{
+		padding-top: 25px;
+		padding-bottom: 22px;
+		font-size: 18px;
+	}
+	.business span{
+		padding-top: 20px;
+		padding-bottom: 17px;
+		font-size: 12px;
+	}
+
+	.vip p{
+		font-size: 8px;
+		padding-left: 8px;
+	}
+	.business p{
+		font-size: 8px;
+		padding-left: 8px;
+	}
+	a{
+		font-size: 10px;
+	}
+	.second__content__price{
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		margin-right: -35%;
+	}
+	.start{
+		width: 144%;
+	}
+	.business a{
+		display: flex;
+		justify-content: center;
+		padding-bottom: 18px;
+		text-decoration: none;
+		color: #fff;
+		font-size: 10px;
+		position: relative;
+	}
+	.vip span{
+		padding-top: 20px;
+		padding-bottom: 17px;
+		font-size: 12px;
+	}
+	.vip a{
+		display: flex;
+		justify-content: center;
+		padding-bottom: 18px;
+		text-decoration: none;
+		color: #fff;
+		font-size: 10px;
+		position: relative;
+	}
+}
