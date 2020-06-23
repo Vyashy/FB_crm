@@ -1,0 +1,62 @@
+
+    /* Собственно сам слайдер */
+    .slider {
+    }
+
+    /* Заголовок слайда */
+    .slideText {
+    }
+
+    /* Кружочки */
+    .slider-dots {
+        text-align: center;
+    }
+
+    .slider .item img {
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .slider-dots_item {
+        cursor: pointer;
+        height: 12px;
+        width: 12px;
+        margin: 10px 2px;
+        background-color: #ddd;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .slider-dots_item:hover {
+        background-color: #aaa;
+    }
+
+    /* Анимация слайдов */
+    .slider .item {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }

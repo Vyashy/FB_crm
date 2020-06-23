@@ -57,11 +57,13 @@ else {
     <title>CRM система для продаж в Facebook</title>
 	<link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/function.css">
-	<link rel="stylesheet" href="css/feed.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/feed.css">
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/arctic-modal.css">
     <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/simple.css">
+    <link rel="stylesheet" href="css/slider.css">
 	<link rel="stylesheet" href="css/change.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -326,7 +328,7 @@ else {
                             <div class="offBlock">
                                 <input  type="radio" name="myModal" id="noceck2">
                             </div>
-                            <div class="blockCont">
+                            <div class="blockCont" id="blockCont">
                                 <div class="wrapper" id="popaps"style="display: flex;max-width: 1024px;margin: 0 auto;margin-bottom: 165px;margin-left: 22%;margin-top: 8%;">
                                     <div class="popap">
                                         <iframe width="650" height="305" src="https://www.youtube.com/embed/bd-KpqIyLUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -962,65 +964,131 @@ else {
             </div>
 
             <div class="content__price">
-                <div class="main__content__price">
+
+                <div class="slider">
+                    <div class="item">
                     <div class="start">
                         <span>Старт</span>
-                        <p>- 500 заказов<br>- 2 сотрудника<br>- полная интеграция<br>с лендингами и интернет<br> магазинами<br>- массовая рассылка СМС<br>- Модульная система<br>(Нова Пошта, Почта России <br>и т.д.)<br>- IP-телефония<br>- склад<br>- статистика<br>- экспорт, импорт данных<br>- техподдержка</p>
+                        <ul style="color: #fefefe; line-height: 1.5;">
+                            <li class="li2"><b>500 заказов</b></li>
+                            <li class="li2"><b>2 сотрудника</b></li><br>
+                            <li>статистика продаж</li>
+                            <li>учет склада и остатков</li>
+                            <li>интеграция с лендингами<br>и интернет-магазинами</li>
+                            <li>новая модульная система<br>(Нова Пошта, Instagram)</li>
+                            <li>массовая SMS рассылка</li>
+                            <li>интеграция IP-телефонии</li>
+                            <li>импорт/экспорт данных</li>
+                            <li>техническая поддержка</li>
+                        </ul>
                         <div class="price_order">
                             <span>699₴</span>
                             <a href="">Заказать ></a>
                         </div>
                     </div>
-                </div>
-                <div class="second__content__price">
-                <div class="business">
-                    <span>Бизнесс</span>
-                    <p>- 1000 заказов<br>- 5 сотрудника<br>- полная интеграция<br>с лендингами и интернет<br> магазинами<br>- массовая рассылка СМС<br>- Модульная система<br>(Нова Пошта, Почта России <br>и т.д.)<br>- IP-телефония<br>- склад<br>- статистика<br>- экспорт, импорт данных<br>- техподдержка</p>
-                    <div class="price_order">
-                        <span>1199₴</span>
-                        <a href="">Заказать ></a>
                     </div>
+                    <div class="item">
+                    <div class="business">
+                        <span>Бизнесс</span>
+                        <ul style="color: #fefefe; line-height: 1.5;">
+                            <li class="li2"><b>1000 заказов</b></li>
+                            <li class="li2"><b>5 сотрудника</b></li><br>
+                            <li>статистика продаж</li>
+                            <li>учет склада и остатков</li>
+                            <li>интеграция с лендингами<br>и интернет-магазинами</li>
+                            <li>новая модульная система<br>(Нова Пошта, Instagram)</li>
+                            <li>массовая SMS рассылка</li>
+                            <li>интеграция IP-телефонии</li>
+                            <li>импорт/экспорт данных</li>
+                            <li>техническая поддержка</li>
+                        </ul>
+                        <div class="price_order">
+                            <span>1199₴</span>
+                            <a href="">Заказать ></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <div class="vip">
+                        <span>VIP</span>
+                        <ul style="color: #fefefe; line-height: 1.5;">
+                            <li class="li2"><b>∞ заказов</b></li>
+                            <li class="li2"><b>∞ сотрудника</b></li><br>
+                            <li>статистика продаж</li>
+                            <li>учет склада и остатков</li>
+                            <li>интеграция с лендингами<br>и интернет-магазинами</li>
+                            <li>новая модульная система<br>(Нова Пошта, Instagram)</li>
+                            <li>массовая SMS рассылка</li>
+                            <li>интеграция IP-телефонии</li>
+                            <li>импорт/экспорт данных</li>
+                            <li>техническая поддержка</li>
+                        </ul>
+                        <div class="price_order">
+                            <span>1699₴</span>
+                            <a href="">Заказать ></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="slider-dots">
+                    <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+                    <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+                    <span class="slider-dots_item" onclick="currentSlide(3)"></span>
                 </div>
 
 
-                <div class="vip">
-                    <span>VIP</span>
-                    <p>- ∞ заказов<br>- ∞ сотрудника<br>- полная интеграция<br>с лендингами и интернет<br> магазинами<br>- массовая рассылка СМС<br>- Модульная система<br>(Нова Пошта, Почта России <br>и т.д.)<br>- IP-телефония<br>- склад<br>- статистика<br>- экспорт, импорт данных<br>- техподдержка</p>
-                    <div class="price_order">
-                        <span>1699₴</span>
-                        <a href="">Заказать ></a>
-                    </div>
-                </div>
-                </div>
+<script>
+    /* Индекс слайда по умолчанию */
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    /* Функция увеличивает индекс на 1, показывает следующй слайд*/
+    function plusSlide() {
+        showSlides(slideIndex += 1);
+    }
+
+    /* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
+    function minusSlide() {
+        showSlides(slideIndex -= 1);
+    }
+
+    /* Устанавливает текущий слайд */
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    /* Основная функция слайдера */
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("item");
+        var dots = document.getElementsByClassName("slider-dots_item");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+
+
+
+
+
+
+
                 </div>
         </div>
     </div>
-    <div class="wrapper">
-
-        <div id="priceBlockTogle" class="priceBlockTogle" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-            <div id="priceStart" data-wow-duration="1s" class="priceBlock priceStart wow  animate__fadeIn priceActive" style="visibility: visible; animation-duration: 1s; order: 1;">
-                <div class="gradiPrice gradiPrice-1"></div>
-                <div id="priceStartTitle" class="priceTitle"><p>Старт</p></div>
-                <div id="priceStartText" class="priceText"><ul><li class="li2"><b>500 заказов</b></li>														<li class="li2"><b>2 сотрудника</b></li><br>														<li>статистика продаж</li>														<li>учет склада и остатков</li>														<li>интеграция с лендингами<br>и интернет-магазинами</li>														<li>новая модульная система<br>(Нова Пошта, Instagram)</li>														<li>массовая SMS рассылка</li>														<li>интеграция IP-телефонии</li>														<li>импорт/экспорт данных</li>														<li>техническая поддержка</li></ul></div>
-                <div id="priceStartPrice" class="pricePrice"><p>699 <span class="hyrivna">₴</span></p></div>
-                <div class="priceZakaz"><p><a id="regStart" href="#pokupka"><span class="ugol">Заказать</span></a></p></div>
-            </div>
-            <div id="priceBusiness" data-wow-duration="1s" class="priceBlock priceBusiness wow" style="visibility: visible; animation-duration: 1s; order: 2;">
-                <div class="gradiPrice gradiPrice-2"></div>
-                <div id="priceBusinessTitle" class="priceTitle"><p>Бизнес</p></div>
-                <div id="priceBusinessText" class="priceText"><ul><li class="li2"><b>1000 заказов</b></li>														<li class="li2"><b>5 сотрудников</b></li><br>														<li>статистика продаж</li>														<li>учет склада и остатков</li>														<li>интеграция с лендингами<br>и интернет-магазинами</li>														<li>новая модульная система<br>(Нова Пошта, Instagram)</li>														<li>массовая SMS рассылка</li>														<li>интеграция IP-телефонии</li>														<li>импорт/экспорт данных</li>														<li>техническая поддержка</li></ul></div>
-                <div id="priceBusinessPrice" class="pricePrice"><p>1199 <span class="hyrivna">₴</span></p></div>
-                <div class="priceZakaz"><p><a id="regBusiness" href="#pokupka"><span class="ugol">Заказать</span></a></p></div>
-            </div>
-            <div id="priceVip" data-wow-duration="1s" class="priceBlock priceVip wow" style="visibility: visible; animation-duration: 1s; order: -1;">
-                <div class="gradiPrice gradiPrice-3"></div>
-                <div id="priceVipTitle" class="priceTitle"><p>VIP</p></div>
-                <div id="priceVipText" class="priceText"><ul><li class="li2"><b>∞ заказов</b></li>														<li class="li2"><b>∞ сотрудников</b></li><br>														<li>статистика продаж</li>														<li>учет склада и остатков</li>														<li>интеграция с лендингами<br>и интернет-магазинами</li>														<li>новая модульная система<br>(Нова Пошта, Instagram)</li>														<li>массовая SMS рассылка</li>														<li>интеграция IP-телефонии</li>														<li>импорт/экспорт данных</li>														<li>техническая поддержка</li></ul></div>
-                <div id="priceVipPrice" class="pricePrice"><p>1699 <span class="hyrivna">₴</span></p></div>
-                <div class="priceZakaz"><p><a id="regVip" href="#pokupka"><span class="ugol">Заказать</span></a></p></div>
-            </div>
-        </div>
-
 
     </div>
     <div class="wrapper" style="position: relative;width: 1200px;height: 70px;">
@@ -1452,335 +1520,9 @@ else {
     <script src="js/priceText.js"></script>
     <script src="script.js"></script>
     <script>
-
-        /************ переключалка *************/
-
         $(document).ready(function() {
-
-            var videoTogle = document.getElementById('videoTogle');
-            var FunctionTogle = document.getElementById('FunctionTogle');
-            var priceTogle = document.getElementById('priceTogle');
-
-            var videoBlockVideo = document.getElementById('videoBlockVideo');
-            var videoModal1 = document.getElementById('video-modal1');
-            var videoModal2 = document.getElementById('video-modal2');
-            var videoModal3 = document.getElementById('video-modal3');
-            var videoBlockFunction = document.getElementById('videoBlockFunction');
-            var priceBlockTogle = document.getElementById('priceBlockTogle');
-
-            var FunctionTabs = document.getElementById('FunctionTabs');
-            var mainTabs = document.getElementById('mainTabs');
-
-            var screen = document.getElementById('screen');
-
-            var macmac = document.getElementById('macmac');
-
-            // videoTogle.onclick = function() {
-            //     videoBlockVideo.classList.remove('hide');
-            //     videoModal1.classList.remove('hide');
-            //     videoModal2.classList.remove('hide');
-            //     videoModal3.classList.remove('hide');
-            //     videoBlockFunction.classList.add('hide');
-            //     priceBlockTogle.classList.add('hide');
-            //     videoTogle.classList.add('--border-top');
-            //     FunctionTogle.classList.remove('--border-top');
-            //     priceTogle.classList.remove('--border-top');
-            //     mainTabs.scrollLeft = 0;
-            // }
-
-            FunctionTogle.onclick = function() {
-                videoBlockVideo.classList.add('hide');
-                videoModal1.classList.add('hide');
-                videoModal2.classList.add('hide');
-                videoModal3.classList.add('hide');
-                priceBlockTogle.classList.add('hide');
-                videoBlockFunction.classList.remove('hide');
-                FunctionTogle.classList.add('--border-top');
-                videoTogle.classList.remove('--border-top');
-                priceTogle.classList.remove('--border-top');
-                mainTabs.scrollLeft = 30;
-            }
-
-            priceTogle.onclick = function() {
-                videoBlockVideo.classList.add('hide');
-                videoModal1.classList.add('hide');
-                videoModal2.classList.add('hide');
-                videoModal3.classList.add('hide');
-                videoBlockFunction.classList.add('hide');
-                priceBlockTogle.classList.remove('hide');
-                priceTogle.classList.add('--border-top');
-                videoTogle.classList.remove('--border-top');
-                FunctionTogle.classList.remove('--border-top');
-                mainTabs.scrollLeft = 100;
-            }
-
-            var SliderMacPer = 0;
-
-            var doSwipe = new Hammer(macmac, {
-                enable: true,
-                recognizers: [
-                    [Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]
-                ]
-            });
-
-            doSwipe.on('swipeleft', function(ev) {
-                if (SliderMacPer == 0) { //контроль
-                    $('#funStats').trigger( "click" );
-                }
-                else  if (SliderMacPer == 1) { //статистика
-                    $('#funUchet').trigger( "click" );
-                }
-                else  if (SliderMacPer == 2) { //учет
-                    $('#funIntegration').trigger( "click" );
-                }
-                else  if (SliderMacPer == 3) { //интеграция
-                    $('#funMobi').trigger( "click" );
-                }
-                else  if (SliderMacPer == 4) { //мобильность
-                    $('#funControls').trigger( "click" );
-                }
-                else {
-                    alert('ошибка '+SliderMacPer);
-                }
-            });
-
-            doSwipe.on('swiperight', function(ev) {
-
-                if (SliderMacPer == 0) { //контроль
-                    $('#funMobi').trigger( "click" );
-                }
-                else  if (SliderMacPer == 1) { //статистика
-                    $('#funControls').trigger( "click" );
-                }
-                else  if (SliderMacPer == 2) { //учет
-                    $('#funStats').trigger( "click" );
-                }
-                else  if (SliderMacPer == 3) { //интеграция
-                    $('#funUchet').trigger( "click" );
-                }
-                else  if (SliderMacPer == 4) { //мобильность
-                    $('#funIntegration').trigger( "click" );
-                }
-                else {
-                    alert('ошибка '+SliderMacPer);
-                }
-            });
-
-
-            $('#funUchet').on('click', function() {
-                SliderMacPer = 2;
-
-                if(typeof(timer5) != "undefined" && timer5 !== null) {
-                    clearTimeout(timer5);
-                }
-
-                $('#funUchetX').attr('style','opacity: 1; transition: all .3s;');
-                $('#funStatsX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funMobiX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funIntegrationX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funControlrsX').attr('style','opacity: 0; transition: all .6s;');
-
-                FunctionTabs.scrollLeft = 34;
-
-            });
-
-            $('#funStats').on('click', function() {
-                SliderMacPer = 1;
-                if(typeof(timer5) != "undefined" && timer5 !== null) {
-                    clearTimeout(timer5);
-                }
-
-                $('#funStatsX').attr('style','opacity: 1; transition: all .3s;');
-                $('#funUchetX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funMobiX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funIntegrationX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funControlrsX').attr('style','opacity: 0; transition: all .6s;');
-
-                FunctionTabs.scrollLeft = 0;
-
-            });
-
-            $('#funControls').on('click', function() {
-                SliderMacPer = 0;
-                if(typeof(timer5) != "undefined" && timer5 !== null) {
-                    clearTimeout(timer5);
-                }
-
-                $('#funControlrsX').attr('style','opacity: 1; transition: all .3s;');
-                $('#funUchetX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funStatsX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funMobiX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funIntegrationX').attr('style','opacity: 0; transition: all .6s;');
-
-                FunctionTabs.scrollLeft = 0;
-
-            });
-
-            $('#funIntegration').on('click', function() {
-                SliderMacPer = 3;
-
-                if(typeof(timer5) != "undefined" && timer5 !== null) {
-                    clearTimeout(timer5);
-                }
-
-                $('#funIntegrationX').attr('style','opacity: 1; transition: all .3s;');
-                $('#funUchetX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funStatsX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funMobiX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funControlrsX').attr('style','opacity: 0; transition: all .6s;');
-
-                FunctionTabs.scrollLeft = 112;
-
-            });
-
-            $('#funMobi').on('click', function() {
-                SliderMacPer = 4;
-
-                if(typeof(timer5) != "undefined" && timer5 !== null) {
-                    clearTimeout(timer5);
-                }
-
-                $('#funMobiX').attr('style','opacity: 1; transition: all .3s;');
-                $('#funUchetX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funStatsX').attr('style','opacity: 0; transition: all .6s;');
-                $('#funIntegrationX').attr('style','opacity; transition: all .6s;');
-                $('#funControlrsX').attr('style','opacity: 0; transition: all .6s;');
-
-                FunctionTabs.scrollLeft = 200;
-            });
-            /*** TEXT ***/
-            var textLidForma = document.getElementById('textLidForma');
-            var textWh = document.getElementById('textWh');
-            if (width > 500) {
-                textLidForma.innerHTML = "Подключение лид-формы<br>Instagram и Facebook";
-                textWh.innerHTML = "Учет склада и остатков";
-            }
-            else if (width <= 500) {
-                textLidForma.innerHTML = "Подклчение<br>лид-формы";
-                textWh.innerHTML = "Учет остатков<br>и склада";
-            }
-
-
-//если сафари и мобильник, убрать кнопку на весь экран
-            if ( (/^((?!chrome|android).)*safari/i.test(navigator.userAgent)) && (width < 1000) ) {
-                // alert('Its Mobi Safari');
-                $('button[data-plyr="fullscreen"]').attr('style','display:none !important');
-            }
-
-            if (width < 700) {
-                $('#priceStart').addClass('wow');
-                $('#priceBusiness').addClass('wow');
-                $('#priceVip').addClass('wow');
-            }
-
-            var price = 1;
-
-            $('#priceStart').on( "click", function() {
-                if (width < 700) {
-                    $('#priceVip').removeClass('animate__fadeIn');
-                    $('#priceStart').addClass('animate__fadeIn');
-                    $('#priceBusiness').removeClass('animate__fadeIn');
-
-                    price = 0;
-                    $('#priceVip').css({
-                        'order': -1
-                    }).removeClass('priceActive');
-                    $('#priceStart').css({
-                        'order': 1
-                    }).addClass('priceActive');
-
-                    $('#priceBusiness').css({
-                        'order': 2
-                    }).removeClass('priceActive');
-                }
-            })
-            $('#priceBusiness').on( "click", function() {
-                if (width < 700) {
-                    $('#priceVip').removeClass('animate__fadeIn');
-                    $('#priceBusiness').addClass('animate__fadeIn');
-                    $('#priceStart').removeClass('animate__fadeIn');
-
-                    price = 1;
-                    $('#priceVip').css({
-                        'order': 2
-                    }).removeClass('priceActive');
-                    $('#priceStart').css({
-                        'order': -1
-                    }).removeClass('priceActive');
-                    $('#priceBusiness').css({
-                        'order': 1
-                    }).addClass('priceActive');
-                }
-            })
-            $('#priceVip').on( "click", function() {
-                if (width < 700) {
-                    $('#priceBusiness').removeClass('animate__fadeIn');
-                    $('#priceVip').addClass('animate__fadeIn');
-                    $('#priceStart').removeClass('animate__fadeIn');
-
-                    price = 2;
-                    $('#priceVip').css({
-                        'order': 1
-                    }).addClass('priceActive');
-                    $('#priceStart').css({
-                        'order': 2
-                    }).removeClass('priceActive');
-                    $('#priceBusiness').css({
-                        'order': -1
-                    }).removeClass('priceActive');
-                }
-            })
-
-            var swipePrice = new Hammer(priceBlockTogle, {
-                enable: true,
-                recognizers: [
-                    [Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]
-                ]
-            });
-
-            swipePrice.on('swipeleft', function(ev) {
-                if (price == 0) { //старт
-                    $('#priceBusiness').trigger( "click" );
-                }
-                else  if (price == 1) { //бизнес
-                    $('#priceVip').trigger( "click" );
-                }
-                else  if (price == 2) { //вип
-                    $('#priceStart').trigger( "click" );
-                }
-            });
-
-            swipePrice.on('swiperight', function(ev) {
-                if (price == 0) { //старт
-                    $('#priceVip').trigger( "click" );
-                }
-                else  if (price == 1) { //бизнес
-                    $('#priceStart').trigger( "click" );
-                }
-                else  if (price == 2) { //вип
-                    $('#priceBusiness').trigger( "click" );
-                }
-            });
-
-            $('#regStart').on("click", function(){
-                $('input[name="s2"]').val('6');
-                $('input[name="s1"]').val('699');
-            });
-            $('#regBusiness').on("click", function(){
-                $('input[name="s2"]').val('7');
-                $('input[name="s1"]').val('1199');
-            });
-            $('#regVip').on("click", function(){
-                $('input[name="s2"]').val('8');
-                $('input[name="s1"]').val('1699');
-
-            });
-
-
-
+            $("#blockCont").modal('show');
         });
-
-
     </script>
 <script src="//www.youtube.com/player_api"></script>
 

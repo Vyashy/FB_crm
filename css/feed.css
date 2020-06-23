@@ -55,14 +55,7 @@ left: 111%;}
 		margin-left: 10px;
 		width: 30%;
 	}
-	.start {
-		border-radius: 5px;
-		height: 100%;
-		background: linear-gradient( 25deg, rgba(137, 239, 229, 1) 0%, rgba(34, 123, 243, 1) 90% );
-		/* margin-top: 110px; */
-		/* margin-bottom: 110px; */
-		width: 100%;
-	}
+
 	.start span {
 		padding-bottom: 11px;
 		padding-top: 12px;
@@ -91,8 +84,24 @@ left: 111%;}
 	}
 
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
 
+	.start{
+		width: 198% !important;
+		margin-bottom: 20px !important;
+		margin-left: -78px;
+	}
+	.business{
+		width: 198% !important;
+		margin-bottom: 20px !important;
+		margin-left: -78px;
+	}
+	.vip{
+		margin-top: 50px !important;
+		width: 198% !important;
+		margin-bottom: 20px !important;
+		margin-left: -78px;
+	}
 
 
 }
@@ -137,17 +146,19 @@ left: 111%;}
 }
 
 @media screen and (max-width: 900px) {
-	.main__content__price{
-		width:30%;
+
+	.content__price{
+		flex-direction: column;
 	}
 	.business{
-		width: 45%;
+		width: 50%;
 		margin-bottom: 0px;
 		margin-right: 0px;
 	}
 	.vip{
-		width: 45%;
+		width: 50%;
 		margin-top: 30px;
+
 
 	}
 	.vip span{
@@ -158,16 +169,22 @@ left: 111%;}
 	.business span{
 		padding-top: 20px;
 		padding-bottom: 17px;
-		font-size: 12px;
+		font-size: 20px;
 	}
 
-	.vip p{
-		font-size: 8px;
-		padding-left: 8px;
+	.vip ul{
+		font-family: Roboto-Medium;
+		/* font-size: 15px; */
+		/*padding-left: 15px;*/
+		color: #fff;
+		line-height: 1.5
 	}
-	.business p{
-		font-size: 8px;
-		padding-left: 8px;
+	.business ul{
+		font-family: Roboto-Medium;
+		/* font-size: 15px; */
+		/*padding-left: 15px;*/
+		color: #fff;
+		line-height: 1.5
 	}
 	a{
 		font-size: 10px;
@@ -179,7 +196,8 @@ left: 111%;}
 		margin-right: -35%;
 	}
 	.start{
-		width: 144%;
+		width: 50%;
+		margin-bottom: 0px;
 	}
 	.business a{
 		display: flex;
@@ -187,13 +205,13 @@ left: 111%;}
 		padding-bottom: 18px;
 		text-decoration: none;
 		color: #fff;
-		font-size: 10px;
+		font-size: 16px;
 		position: relative;
 	}
 	.vip span{
 		padding-top: 20px;
 		padding-bottom: 17px;
-		font-size: 12px;
+		font-size: 20px;
 	}
 	.vip a{
 		display: flex;
@@ -201,7 +219,21 @@ left: 111%;}
 		padding-bottom: 18px;
 		text-decoration: none;
 		color: #fff;
-		font-size: 10px;
+		font-size: 16px;
+		position: relative;
+	}
+	.start span{
+		padding-top: 20px;
+		padding-bottom: 17px;
+		font-size: 20px;
+	}
+	.start a{
+		display: flex;
+		justify-content: center;
+		padding-bottom: 18px;
+		text-decoration: none;
+		color: #fff;
+		font-size: 16px;
 		position: relative;
 	}
 }
